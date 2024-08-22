@@ -106,3 +106,19 @@
     line-height: 1;
     transform: rotate(0deg); 
 }
+
+@media (max-width: 480px) {
+    .company-logo {
+        width: 70%;
+    }
+
+    .input-box {
+        padding: 8px;
+    }
+
+    .send-button {
+        width: 45px;
+        height: 45px;
+        font-size: 22px;
+    }
+}
